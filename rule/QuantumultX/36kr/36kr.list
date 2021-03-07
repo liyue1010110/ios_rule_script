@@ -1,8 +1,10 @@
 # NAME: 36kr
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-02 02:44:18.712721
-# HOST-SUFFIX: 2
-# TOTAL: 2
+# UPDATED: 2021-03-07 14:22:22.804838
+# HOST-SUFFIX: 4
+# TOTAL: 4
+HOST-SUFFIX,36dianping.com,36kr
 HOST-SUFFIX,36kr.com,36kr
 HOST-SUFFIX,36krcdn.com,36kr
+HOST-SUFFIX,36krcnd.com,36kr

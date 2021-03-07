@@ -1,7 +1,7 @@
 # NAME: GlobalMedia 规则重复情况
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-02 02:44:26.784398
+# UPDATED: 2021-03-07 14:22:32.441797
 # DESCRIPTION: 本文件仅为展示规则间重复情况，不做其他用处，请勿引用此文件。善用Ctrl+F搜索重复明细。
 #  与 Netflix 共 42 条规则重复
 HOST,netflix.com.edgesuite.net
@@ -57,7 +57,13 @@ HOST-SUFFIX,japronx.com
 HOST-SUFFIX,japronx.net
 HOST-SUFFIX,japronx.tv
 HOST-SUFFIX,japronx.vip
-#  与 AppleNews 共 9 条规则重复
+#  与 KKBOX 共 5 条规则重复
+HOST-SUFFIX,kfs.io
+HOST-SUFFIX,kkbox.com
+HOST-SUFFIX,kkbox.com.tw
+HOST-SUFFIX,kktv.com.tw
+HOST-SUFFIX,kktv.me
+#  与 AppleNews 共 7 条规则重复
 HOST,apple.comscoreresearch.com
 HOST,gateway.icloud.com
 HOST,gspe1-ssl.ls.apple.com
@@ -65,14 +71,6 @@ HOST,news-client.apple.com
 HOST,news-edge.apple.com
 HOST,news-events.apple.com
 HOST-SUFFIX,apple.news
-USER-AGENT,AppleNews*
-USER-AGENT,com.apple.news*
-#  与 KKBOX 共 5 条规则重复
-HOST-SUFFIX,kfs.io
-HOST-SUFFIX,kkbox.com
-HOST-SUFFIX,kkbox.com.tw
-HOST-SUFFIX,kktv.com.tw
-HOST-SUFFIX,kktv.me
 #  与 TikTok 共 11 条规则重复
 HOST-KEYWORD,-tiktokcdn-com
 HOST-SUFFIX,byteoversea.com
@@ -112,15 +110,6 @@ HOST-SUFFIX,indaznlab.com
 HOST-SUFFIX,intercom.io
 HOST-SUFFIX,sentry.io
 USER-AGENT,DAZN*
-#  与 BBC 共 8 条规则重复
-HOST-KEYWORD,bbcfmt
-HOST-KEYWORD,uk-live
-HOST-SUFFIX,bbc.co
-HOST-SUFFIX,bbc.co.uk
-HOST-SUFFIX,bbc.com
-HOST-SUFFIX,bbci.co
-HOST-SUFFIX,bbci.co.uk
-USER-AGENT,BBCiPlayer*
 #  与 HBO 共 12 条规则重复
 HOST-SUFFIX,bcbolthboa-a.akamaihd.net
 HOST-SUFFIX,hbo.com
@@ -134,16 +123,15 @@ HOST-SUFFIX,nowe.com
 HOST-SUFFIX,youboranqs01.com
 USER-AGENT,HBO%20NOW*
 USER-AGENT,HBOMAX*
-#  与 Amazon 共 9 条规则重复
-HOST-SUFFIX,aiv-cdn.net
-HOST-SUFFIX,amazonaws.co.uk
-HOST-SUFFIX,amazonaws.com
-HOST-SUFFIX,amazonvideo.com
-HOST-SUFFIX,llnwd.net
-HOST-SUFFIX,media-amazon.com
-HOST-SUFFIX,primevideo.com
-USER-AGENT,InstantVideo.US*
-USER-AGENT,Prime%20Video*
+#  与 BBC 共 8 条规则重复
+HOST-KEYWORD,bbcfmt
+HOST-KEYWORD,uk-live
+HOST-SUFFIX,bbc.co
+HOST-SUFFIX,bbc.co.uk
+HOST-SUFFIX,bbc.com
+HOST-SUFFIX,bbci.co
+HOST-SUFFIX,bbci.co.uk
+USER-AGENT,BBCiPlayer*
 #  与 AmazonPrimeVideo 共 9 条规则重复
 HOST-KEYWORD,avoddashs
 HOST-SUFFIX,aiv-cdn.net
@@ -154,6 +142,14 @@ HOST-SUFFIX,media-amazon.com
 HOST-SUFFIX,primevideo.com
 USER-AGENT,InstantVideo.US*
 USER-AGENT,Prime%20Video*
+#  与 TVB 共 7 条规则重复
+HOST,bcbolt446c5271-a.akamaihd.net
+HOST,edge.api.brightcove.com
+HOST-SUFFIX,encoretvb.com
+HOST-SUFFIX,mytvsuper.com
+HOST-SUFFIX,tvb.com
+USER-AGENT,encoreTVB*
+USER-AGENT,mytv*
 #  与 AbemaTV 共 5 条规则重复
 HOST-SUFFIX,abema.io
 HOST-SUFFIX,abema.tv
@@ -173,3 +169,10 @@ HOST-SUFFIX,hulustream.com
 HOST-SUFFIX,prod.hjholdings.tv
 HOST-SUFFIX,streaks.jp
 HOST-SUFFIX,yb.uncn.jp
+#  与 CBS 共 6 条规则重复
+HOST-SUFFIX,cbsaavideo.com
+HOST-SUFFIX,cbsi.com
+HOST-SUFFIX,cbsivideo.com
+HOST-SUFFIX,paramountplus.com
+HOST-SUFFIX,pplusstatic.com
+USER-AGENT,PPlus*
